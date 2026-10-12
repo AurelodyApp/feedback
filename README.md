@@ -14,6 +14,7 @@ This repository tracks feedback only. It does not contain the app's source code.
 | Ask "is this a bug or my setup?" | [Discussions · Q&A](https://github.com/AurelodyApp/feedback/discussions/categories/q-a) |
 | Suggest a feature, or vote on one | [Discussions · Ideas](https://github.com/AurelodyApp/feedback/discussions/categories/ideas) (upvote with 👍) |
 | Follow updates and the roadmap | [Discussions · Announcements](https://github.com/AurelodyApp/feedback/discussions/categories/announcements) |
+| Chat with other users | [Telegram group](https://t.me/aurelody) |
 
 Issues are created by the maintainer from the channels above, so please don't open them directly.
 

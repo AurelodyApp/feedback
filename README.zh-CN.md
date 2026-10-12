@@ -14,6 +14,7 @@
 | 问「是 bug 还是我配置错了？」 | [Discussions · Q&A](https://github.com/AurelodyApp/feedback/discussions/categories/q-a) |
 | 提功能建议、为别人的建议投票 | [Discussions · Ideas](https://github.com/AurelodyApp/feedback/discussions/categories/ideas)（用 👍 投票） |
 | 看更新与路线图 | [Discussions · Announcements](https://github.com/AurelodyApp/feedback/discussions/categories/announcements) |
+| 和其他用户交流 | [Telegram 群组](https://t.me/aurelody) |
 
 Issues 由维护者从以上渠道整理后创建，请不要直接开 issue。
 
