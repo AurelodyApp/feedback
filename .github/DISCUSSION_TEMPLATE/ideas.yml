@@ -2,28 +2,29 @@ body:
   - type: markdown
     attributes:
       value: |
-        发帖前请先搜一下有没有人提过。已经有的话，去给它 👍，比新开一帖更有用。
         Please search first. If someone already suggested it, a 👍 there helps more than a new post.
+
+        可以用中文填写。
   - type: textarea
     id: use-case
     attributes:
-      label: 你想做什么？现在卡在哪里？ · What are you trying to do, and what's in the way?
-      description: 描述场景比描述方案更有用 · Describing the situation helps more than describing a solution
+      label: What are you trying to do, and what's in the way?
+      description: Describing the situation helps more than describing a solution
     validations:
       required: true
   - type: textarea
     id: proposal
     attributes:
-      label: 你设想的做法（可选） · How you imagine it could work (optional)
+      label: How you imagine it could work (optional)
   - type: dropdown
     id: servers
     attributes:
-      label: 和哪些服务器有关（可选） · Related servers (optional)
+      label: Related servers (optional)
       multiple: true
       options:
-        - 全部 · All
+        - All
         - Jellyfin
         - Emby
         - Navidrome
         - gonic
-        - 其他 Subsonic 兼容服务器 · Other Subsonic-compatible server
+        - Other Subsonic-compatible server
