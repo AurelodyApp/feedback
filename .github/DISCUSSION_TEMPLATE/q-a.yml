@@ -1,0 +1,70 @@
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ⚠️ 这里是公开的。截图和日志里的**服务器地址、用户名、`api_key` / `token` / `u` / `t` / `s` 参数**请先打码。
+        ⚠️ This is public. Blur **server addresses, usernames and `api_key` / `token` / `u` / `t` / `s` parameters** in screenshots and logs first.
+  - type: input
+    id: app-version
+    attributes:
+      label: App 版本 · App version
+      description: 在 设置 → 关于 查看 · Found in Settings → About
+      placeholder: "1.0 (100)"
+    validations:
+      required: true
+  - type: dropdown
+    id: device
+    attributes:
+      label: 设备 · Device
+      options:
+        - iPhone
+        - iPad
+        - Mac
+    validations:
+      required: true
+  - type: input
+    id: os-version
+    attributes:
+      label: 系统版本 · OS version
+      placeholder: "iOS 26.1 / macOS 26.1"
+    validations:
+      required: true
+  - type: dropdown
+    id: server
+    attributes:
+      label: 服务器类型 · Server type
+      options:
+        - Jellyfin
+        - Emby
+        - Navidrome
+        - gonic
+        - 其他 Subsonic 兼容服务器 · Other Subsonic-compatible server
+    validations:
+      required: true
+  - type: input
+    id: server-version
+    attributes:
+      label: 服务器版本 · Server version
+      placeholder: "10.11.0"
+  - type: textarea
+    id: description
+    attributes:
+      label: 发生了什么？ · What happened?
+      description: 你期望的结果，以及实际的结果 · What you expected, and what actually happened
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤 · Steps to reproduce
+      placeholder: |
+        1.
+        2.
+        3.
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: 隐私 · Privacy
+      options:
+        - label: 我已打码截图和日志中的服务器地址与凭证 · I've removed server addresses and credentials from screenshots and logs
+          required: true
